@@ -1,0 +1,247 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "9d8efea0-164e-4198-a025-67e70c4140a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BMW\n",
+      "Black\n",
+      "120\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Car:\n",
+    "    brand=\"BMW\"\n",
+    "    colour=\"Black\"\n",
+    "    speed=\"120\"\n",
+    "car1=Car\n",
+    "print(car1.brand)\n",
+    "print(car1.colour)\n",
+    "print(car1.speed)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0cc136d1-46a5-457d-b72c-dbd54b27308a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Lilly\n",
+      "Sunflower\n",
+      "Rose\n",
+      "Jasmine\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Flower:\n",
+    "    type1=\"Lilly\"\n",
+    "    type2=\"Sunflower\"\n",
+    "    type3=\"Rose\"\n",
+    "    type4=\"Jasmine\"\n",
+    "flower1=Flower\n",
+    "print(flower1.type1)\n",
+    "print(flower1.type2)\n",
+    "print(flower1.type3)\n",
+    "print(flower1.type4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "0c191e22-3e13-400d-858f-7c52ac8f916b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'def_init_' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[14]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28;43;01mclass\u001b[39;49;00m\u001b[38;5;250;43m \u001b[39;49m\u001b[34;43;01mStudent\u001b[39;49;00m\u001b[43m:\u001b[49m\n\u001b[32m      2\u001b[39m \u001b[43m    \u001b[49m\u001b[43mdef_init_\u001b[49m\u001b[43m(\u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43mname\u001b[49m\u001b[43m,\u001b[49m\u001b[43mage\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m      3\u001b[39m \u001b[43m    \u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43mname\u001b[49m\n",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[14]\u001b[39m\u001b[32m, line 2\u001b[39m, in \u001b[36mStudent\u001b[39m\u001b[34m()\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[38;5;28;01mclass\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mStudent\u001b[39;00m:\n\u001b[32m----> \u001b[39m\u001b[32m2\u001b[39m     \u001b[43mdef_init_\u001b[49m(\u001b[38;5;28mself\u001b[39m,name,age)\n\u001b[32m      3\u001b[39m     \u001b[38;5;28mself\u001b[39m.name\n\u001b[32m      4\u001b[39m     \u001b[38;5;28mself\u001b[39m.age\n",
+      "\u001b[31mNameError\u001b[39m: name 'def_init_' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "    def_init_(self,name,age)\n",
+    "    self.name\n",
+    "    self.age\n",
+    "    s1=Student(\"ashmitha\",19)\n",
+    "print(s1name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "79ad57e5-52af-45ea-b76e-5aca88bbafbe",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Student' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[12]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m s1=\u001b[43mStudent\u001b[49m(\u001b[33m\"\u001b[39m\u001b[33mashmitha\u001b[39m\u001b[33m\"\u001b[39m,\u001b[32m19\u001b[39m)\n\u001b[32m      2\u001b[39m \u001b[38;5;28mprint\u001b[39m(s1name)\n",
+      "\u001b[31mNameError\u001b[39m: name 'Student' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "s1=Student(\"ashmitha\",19)\n",
+    "print(s1name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "7195973d-0b82-4e59-bdd9-e3c0f420cb55",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block after class definition on line 1 (650281241.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[17]\u001b[39m\u001b[32m, line 2\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31mdef_init_(self,name,age)\u001b[39m\n    ^\n\u001b[31mIndentationError\u001b[39m\u001b[31m:\u001b[39m expected an indented block after class definition on line 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "def_init_(self,name,age)\n",
+    "    self.name\n",
+    "    self.age\n",
+    "s1=Student(\"ashmitha\",\"19\")\n",
+    "print(s1name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "d442c221-cfff-4fe4-9230-18864cffe0dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'def_init_' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[20]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28;43;01mclass\u001b[39;49;00m\u001b[38;5;250;43m \u001b[39;49m\u001b[34;43;01mStudent\u001b[39;49;00m\u001b[43m:\u001b[49m\n\u001b[32m      2\u001b[39m \u001b[43m    \u001b[49m\u001b[43mdef_init_\u001b[49m\u001b[43m(\u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43mname\u001b[49m\u001b[43m,\u001b[49m\u001b[43mage\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m      3\u001b[39m \u001b[43m    \u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43mname\u001b[49m\n",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[20]\u001b[39m\u001b[32m, line 2\u001b[39m, in \u001b[36mStudent\u001b[39m\u001b[34m()\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[38;5;28;01mclass\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mStudent\u001b[39;00m:\n\u001b[32m----> \u001b[39m\u001b[32m2\u001b[39m     \u001b[43mdef_init_\u001b[49m(\u001b[38;5;28mself\u001b[39m,name,age)\n\u001b[32m      3\u001b[39m     \u001b[38;5;28mself\u001b[39m.name\n\u001b[32m      4\u001b[39m     \u001b[38;5;28mself\u001b[39m.age\n",
+      "\u001b[31mNameError\u001b[39m: name 'def_init_' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "    def_init_(self,name,age)\n",
+    "    self.name\n",
+    "    self.age\n",
+    "s1=Student(\"ashmitha\",\"19\")\n",
+    "print(s1name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "c42eb7f2-a771-40bc-a23a-2ce5fbb2822c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'def_init_' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[21]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28;43;01mclass\u001b[39;49;00m\u001b[38;5;250;43m \u001b[39;49m\u001b[34;43;01mStudent\u001b[39;49;00m\u001b[43m:\u001b[49m\n\u001b[32m      2\u001b[39m \u001b[43m    \u001b[49m\u001b[43mdef_init_\u001b[49m\u001b[43m(\u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43mname\u001b[49m\u001b[43m,\u001b[49m\u001b[43mage\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m      3\u001b[39m \u001b[43m    \u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43mname\u001b[49m\n",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[21]\u001b[39m\u001b[32m, line 2\u001b[39m, in \u001b[36mStudent\u001b[39m\u001b[34m()\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[38;5;28;01mclass\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mStudent\u001b[39;00m:\n\u001b[32m----> \u001b[39m\u001b[32m2\u001b[39m     \u001b[43mdef_init_\u001b[49m(\u001b[38;5;28mself\u001b[39m,name,age)\n\u001b[32m      3\u001b[39m     \u001b[38;5;28mself\u001b[39m.name\n\u001b[32m      4\u001b[39m     \u001b[38;5;28mself\u001b[39m.age\n",
+      "\u001b[31mNameError\u001b[39m: name 'def_init_' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "    def_init_(self,name,age)\n",
+    "    self.name\n",
+    "    self.age\n",
+    "    \n",
+    "s1=Student(\"ashmitha\",\"19\")\n",
+    "print(s1name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "64426432-8539-4215-9cc1-6d2ae2b4d344",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ashmitha\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "   def __init__(self,name,age):\n",
+    "      self.name = name\n",
+    "      self.age = age\n",
+    "s1=Student(\"ashmitha\",\"19\")\n",
+    "print(s1.name)\n",
+    "print(s1.age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "26c86b2c-9e25-4313-9945-f14d4c2de1a2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
